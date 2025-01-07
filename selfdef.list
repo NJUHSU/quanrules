@@ -1,13 +1,263 @@
-[filter]
 # DIRECT rules
-DOMAIN-SUFFIX,ultramobile.com,DIRECT
-DOMAIN-SUFFIX,apple.com,DIRECT
-DOMAIN-SUFFIX,asuscomm.com,DIRECT
-DOMAIN-SUFFIX,bilivideo.com,DIRECT
-DOMAIN-KEYWORD,infuse,DIRECT
+HOST-SUFFIX,ultramobile.com,DIRECT
+HOST-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,asuscomm.com,DIRECT
+HOST-SUFFIX,bilivideo.com,DIRECT
+HOST-KEYWORD,infuse,DIRECT
 
-# PROXY rules
-DOMAIN-SUFFIX,location.microsoft.com,PROXY
-DOMAIN-SUFFIX,prod.rewardsplatform.microsoft.com,PROXY
-DOMAIN-SUFFIX,edge.microsoft.com,PROXY
-DOMAIN-SUFFIX,self.events.data.microsoft.com,PROXY
+# claude
+HOST-SUFFIX,anthropic.com,PROXY
+HOST-SUFFIX,claude.ai,PROXY
+# eBay
+HOST-SUFFIX,ebay.com,PROXY
+HOST-SUFFIX,ebaystatic.com,PROXY
+# TikTok
+HOST-SUFFIX,tiktok.com,PROXY
+HOST-SUFFIX,tiktokv.com,PROXY
+HOST-SUFFIX,tiktokcdn.com,PROXY
+HOST-KEYWORD,tiktokv,PROXY
+# Alibaba
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+# Accelerate most visited sites
+# Microsoft Office
+HOST,officecdn-microsoft-com.akamaized.net,DIRECT
+# Common Chinese services
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,biliapi.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilibili.tv,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,baidu.com,DIRECT
+# Common international services
+HOST-SUFFIX,battle.net,DIRECT
+HOST-SUFFIX,blizzard.com,DIRECT
+HOST-SUFFIX,booking.com,DIRECT
+# Academic resources
+HOST-SUFFIX,cambridge.org,DIRECT
+# Chinese media
+HOST-SUFFIX,cctv.com,DIRECT
+HOST-SUFFIX,cctvpic.com,DIRECT
+# Chinese financial services
+HOST-SUFFIX,cmbchina.com,DIRECT
+# Chinese travel services
+HOST-SUFFIX,ctrip.com,DIRECT
+# Chinese tech companies
+HOST-SUFFIX,didiglobal.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+# Chinese social media and entertainment
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,douyu.com,DIRECT
+# General Chinese domains
+HOST-SUFFIX,cn,DIRECT
+# Chinese financial services
+HOST-SUFFIX,eastmoney.com,DIRECT
+# Chinese tech companies
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST-SUFFIX,hdslb.com,DIRECT
+HOST-SUFFIX,huya.com,DIRECT
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,iqiyipic.com,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jd.hk,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+# Chinese media and entertainment
+HOST-SUFFIX,ithome.com,DIRECT
+HOST-SUFFIX,maoyan.com,DIRECT
+HOST-SUFFIX,mgtv.com,DIRECT
+# Chinese tech giants
+HOST-SUFFIX,meitu.com,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
+# International tech companies
+HOST-SUFFIX,microsoft.com,DIRECT
+# Chinese cloud services
+HOST-SUFFIX,myqcloud.com,DIRECT
+# Major Chinese internet companies
+HOST-SUFFIX,netease.com,DIRECT
+# Academic resources
+HOST-SUFFIX,ebscohost.com,DIRECT
+HOST-SUFFIX,ieee.org,DIRECT
+HOST-SUFFIX,jstor.org,DIRECT
+HOST-SUFFIX,nature.com,DIRECT
+# International tech companies
+HOST-SUFFIX,nvidia.com,DIRECT
+HOST-SUFFIX,office365.com,DIRECT
+HOST-SUFFIX,outlook.com,DIRECT
+HOST-SUFFIX,paypal.com,DIRECT
+HOST-SUFFIX,paypalobjects.com,DIRECT
+# Chinese tech giants
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+# Chinese internet services
+HOST-SUFFIX,qidian.com,DIRECT
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,sogou.com,DIRECT
+HOST-SUFFIX,sogoucdn.com,DIRECT
+HOST-SUFFIX,sohu.com,DIRECT
+# Academic resources
+HOST-SUFFIX,oup.com,DIRECT
+HOST-SUFFIX,pnas.org,DIRECT
+HOST-SUFFIX,proquest.com,DIRECT
+HOST-SUFFIX,sciencedirect.com,DIRECT
+HOST-SUFFIX,sciencemag.org,DIRECT
+HOST-SUFFIX,springer.com,DIRECT
+HOST-SUFFIX,springerlink.com,DIRECT
+# Gaming platforms
+HOST-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+HOST-SUFFIX,steamcontent.com,DIRECT
+HOST-SUFFIX,steamgames.com,DIRECT
+HOST-SUFFIX,steampowered.com,DIRECT
+HOST-SUFFIX,steamstat.us,DIRECT
+HOST-SUFFIX,steamstatic.com,DIRECT
+HOST-SUFFIX,steamusercontent.com,DIRECT
+# Chinese tech giants and services
+HOST-SUFFIX,tencent-cloud.net,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,toutiao.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,ximalaya.com,DIRECT
+HOST-SUFFIX,xinhuanet.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
+# International tech companies
+HOST-SUFFIX,teamviewer.com,DIRECT
+HOST-SUFFIX,visualstudio.com,DIRECT
+HOST-SUFFIX,vmware.com,DIRECT
+HOST-SUFFIX,windows.com,DIRECT
+HOST-SUFFIX,windowsupdate.com,DIRECT
+# Academic and news resources
+HOST-SUFFIX,tandfonline.com,DIRECT
+HOST-SUFFIX,un.org,DIRECT
+HOST-SUFFIX,webofknowledge.com,DIRECT
+HOST-SUFFIX,westlaw.com,DIRECT
+HOST-SUFFIX,wiley.com,DIRECT
+HOST-SUFFIX,worldbank.org,DIRECT
+HOST-SUFFIX,worldscientific.com,DIRECT
+# Apple services (as requested to keep)
+HOST,www-cdn.icloud.com.akadns.net,DIRECT
+HOST-SUFFIX,aaplimg.com,DIRECT
+HOST-SUFFIX,apple-cloudkit.com,DIRECT
+HOST-SUFFIX,apple.co,DIRECT
+HOST-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,apple.news,DIRECT
+HOST-SUFFIX,apple.com.cn,DIRECT
+HOST-SUFFIX,appstore.com,DIRECT
+HOST-SUFFIX,cdn-apple.com,DIRECT
+HOST-SUFFIX,crashlytics.com,DIRECT
+HOST-SUFFIX,icloud-content.com,DIRECT
+HOST-SUFFIX,icloud.com,DIRECT
+HOST-SUFFIX,icloud.com.cn,DIRECT
+HOST-SUFFIX,me.com,DIRECT
+HOST-SUFFIX,mzstatic.com,DIRECT
+# LINE
+HOST-SUFFIX,scdn.co,PROXY
+HOST-SUFFIX,line.naver.jp,PROXY
+HOST-SUFFIX,line.me,PROXY
+HOST-SUFFIX,line-apps.com,PROXY
+HOST-SUFFIX,line-cdn.net,PROXY
+HOST-SUFFIX,line-scdn.net,PROXY
+USER-AGENT,Line*,PROXY
+# Google
+HOST-KEYWORD,google,PROXY
+HOST-SUFFIX,android.com,PROXY
+HOST-SUFFIX,appspot.com,PROXY
+HOST-SUFFIX,blogger.com,PROXY
+HOST-SUFFIX,chrome.com,PROXY
+HOST-SUFFIX,chromium.org,PROXY
+HOST-SUFFIX,gmail.com,PROXY
+HOST-SUFFIX,gstatic.com,PROXY
+HOST-SUFFIX,recaptcha.net,PROXY
+HOST-SUFFIX,youtu.be,PROXY
+HOST-SUFFIX,youtube.com,PROXY
+HOST-SUFFIX,ytimg.com,PROXY
+# Clubhouse
+HOST-SUFFIX,clubhouseapi.com,PROXY
+HOST-SUFFIX,clubhouse.pubnub.com,PROXY
+HOST-SUFFIX,joinclubhouse.com,PROXY
+HOST-SUFFIX,ap3.agora.io,PROXY
+# Social Media and Communication
+HOST-KEYWORD,facebook,PROXY
+HOST-KEYWORD,instagram,PROXY
+HOST-KEYWORD,twitter,PROXY
+HOST-SUFFIX,twimg.com,PROXY
+HOST-SUFFIX,t.co,PROXY
+HOST-SUFFIX,whatsapp.net,PROXY
+HOST-SUFFIX,whatsapp.com,PROXY
+HOST-SUFFIX,snapchat.com,PROXY
+HOST-SUFFIX,linkedin.com,PROXY
+HOST-SUFFIX,licdn.com,PROXY
+# Cloud Services
+HOST-SUFFIX,amazonaws.com,PROXY
+HOST-SUFFIX,cloudfront.net,PROXY
+HOST-SUFFIX,cloudflare.com,PROXY
+HOST-SUFFIX,dropbox.com,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+# News and Information
+HOST-SUFFIX,nytimes.com,PROXY
+HOST-SUFFIX,wsj.com,PROXY
+HOST-SUFFIX,wikipedia.org,PROXY
+HOST-SUFFIX,wikimedia.org,PROXY
+HOST-SUFFIX,medium.com,PROXY
+# Video Streaming
+HOST-SUFFIX,twitch.tv,PROXY
+HOST-SUFFIX,vimeo.com,PROXY
+HOST-SUFFIX,nflxvideo.net,PROXY
+# Developer Tools and Services
+HOST-SUFFIX,bitbucket.org,PROXY
+HOST-SUFFIX,stackoverflow.com,PROXY
+# Other Important Services
+HOST-SUFFIX,akamai.net,PROXY
+HOST-SUFFIX,amazon.com,PROXY
+HOST-SUFFIX,bing.com,PROXY
+HOST-SUFFIX,wordpress.com,PROXY
+HOST-SUFFIX,gravatar.com,PROXY
+HOST-SUFFIX,imgur.com,PROXY
+HOST-SUFFIX,fastly.net,PROXY
+# URL Shorteners
+HOST-SUFFIX,bit.ly,PROXY
+HOST-SUFFIX,goo.gl,PROXY
+HOST-SUFFIX,ift.tt,PROXY
+HOST-SUFFIX,j.mp,PROXY
+HOST-SUFFIX,ow.ly,PROXY
+# Speed Test
+HOST-SUFFIX,fast.com,PROXY
+# ChatGPT
+HOST,chat.openai.com.cdn.cloudflare.net,PROXY
+HOST,openai-api.arkoselabs.com,PROXY
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
+HOST,openaicomproductionae4b.blob.core.windows.net,PROXY
+HOST,production-openaicom-storage.azureedge.net,PROXY
+HOST-KEYWORD,openaicom-api,PROXY
+HOST-SUFFIX,auth0.com,PROXY
+HOST-SUFFIX,cdn.cloudflare.net,PROXY
+HOST-SUFFIX,challenges.cloudflare.com,PROXY
+HOST-SUFFIX,chatgpt.livekit.cloud,PROXY
+HOST-SUFFIX,client-api.arkoselabs.com,PROXY
+HOST-SUFFIX,oaistatic.com,PROXY
+HOST-SUFFIX,oaiusercontent.com,PROXY
+HOST-SUFFIX,openai.com,PROXY
+HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
+HOST-SUFFIX,openaicom.imgix.net,PROXY
+HOST-SUFFIX,stripe.com,PROXY
