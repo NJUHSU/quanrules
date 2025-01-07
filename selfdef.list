@@ -261,3 +261,5 @@ HOST-SUFFIX,openai.com,PROXY
 HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
 HOST-SUFFIX,openaicom.imgix.net,PROXY
 HOST-SUFFIX,stripe.com,PROXY
+# added
+HOST-SUFFIX,jable.tv,PROXY
