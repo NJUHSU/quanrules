@@ -1,0 +1,13 @@
+[filter]
+# DIRECT rules
+DOMAIN-SUFFIX,ultramobile.com,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,asuscomm.com,DIRECT
+DOMAIN-SUFFIX,bilivideo.com,DIRECT
+DOMAIN-KEYWORD,infuse,DIRECT
+
+# PROXY rules
+DOMAIN-SUFFIX,location.microsoft.com,PROXY
+DOMAIN-SUFFIX,prod.rewardsplatform.microsoft.com,PROXY
+DOMAIN-SUFFIX,edge.microsoft.com,PROXY
+DOMAIN-SUFFIX,self.events.data.microsoft.com,PROXY
