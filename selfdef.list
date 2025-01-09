@@ -170,7 +170,7 @@ HOST-SUFFIX,icloud.com,DIRECT
 HOST-SUFFIX,icloud.com.cn,DIRECT
 HOST-SUFFIX,me.com,DIRECT
 HOST-SUFFIX,mzstatic.com,DIRECT
-HOST-SUFFIX,safebrowsing.apple.DIRECT
+HOST-SUFFIX,safebrowsing.apple,DIRECT
 # LINE
 HOST-SUFFIX,scdn.co,PROXY
 HOST-SUFFIX,line.naver.jp,PROXY
