@@ -267,5 +267,6 @@ HOST-SUFFIX,jable.tv,PROXY
 HOST-SUFFIX,logi.com,DIRECT
 HOST-SUFFIX,logitech.io,DIRECT
 HOST-SUFFIX,logitech.com,DIRECT
+HOST-SUFFIX,logitechg.com,DIRECT
 # workday
 HOST-KEYWORD,myworkday,DIRECT
