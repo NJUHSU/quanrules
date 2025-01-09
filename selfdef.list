@@ -261,5 +261,11 @@ HOST-SUFFIX,openai.com,PROXY
 HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
 HOST-SUFFIX,openaicom.imgix.net,PROXY
 HOST-SUFFIX,stripe.com,PROXY
-# added
+# added jable
 HOST-SUFFIX,jable.tv,PROXY
+# logi
+HOST-SUFFIX,logi.com,DIRECT
+HOST-SUFFIX,logitech.io,DIRECT
+HOST-SUFFIX,logitech.com,DIRECT
+# workday
+HOST-KEYWORD,myworkday,DIRECT
