@@ -4,7 +4,8 @@ HOST-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,asuscomm.com,DIRECT
 HOST-SUFFIX,bilivideo.com,DIRECT
 HOST-KEYWORD,infuse,DIRECT
-
+# qnap
+HOST-SUFFIX,qnap.com,DIRECT
 # claude
 HOST-SUFFIX,anthropic.com,PROXY
 HOST-SUFFIX,claude.ai,PROXY
