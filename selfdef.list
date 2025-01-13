@@ -6,6 +6,7 @@ HOST-SUFFIX,bilivideo.com,DIRECT
 HOST-KEYWORD,infuse,DIRECT
 # qnap
 HOST-SUFFIX,qnap.com,DIRECT
+HOST-KEYWORD,qnap,DIRECT
 # claude
 HOST-SUFFIX,anthropic.com,PROXY
 HOST-SUFFIX,claude.ai,PROXY
@@ -23,6 +24,7 @@ HOST-SUFFIX,alicdn.com,DIRECT
 # Accelerate most visited sites
 # Microsoft Office
 HOST,officecdn-microsoft-com.akamaized.net,DIRECT
+HOST-SUFFIX,azure.com,DIRECT
 # Common Chinese services
 HOST-SUFFIX,126.net,DIRECT
 HOST-SUFFIX,163.com,DIRECT
