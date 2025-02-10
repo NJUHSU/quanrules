@@ -274,3 +274,5 @@ HOST-SUFFIX,logitech.com,DIRECT
 HOST-SUFFIX,logitechg.com,DIRECT
 # workday
 HOST-KEYWORD,myworkday,DIRECT
+# fc2
+HOST-SUFFIX,fc2ppvdb.com,PROXY
