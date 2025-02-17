@@ -8,8 +8,8 @@ HOST-KEYWORD,infuse,DIRECT
 HOST-SUFFIX,qnap.com,DIRECT
 HOST-KEYWORD,qnap,DIRECT
 # claude
-HOST-SUFFIX,anthropic.com,policy-chain
-HOST-SUFFIX,claude.ai,policy-chain
+HOST-SUFFIX,anthropic.com,PROXY
+HOST-SUFFIX,claude.ai,PROXY
 # eBay
 HOST-SUFFIX,ebay.com,PROXY
 HOST-SUFFIX,ebaystatic.com,PROXY
