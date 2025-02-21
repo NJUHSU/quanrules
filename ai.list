@@ -1,63 +1,62 @@
-ip-cidr, 38.181.122.195/32, chainout
-# claude
-HOST,cdn.usefathom.com,AI, via-interface=%TUN%
-HOST-SUFFIX,anthropic.com,AI, via-interface=%TUN%
-HOST-SUFFIX,claude.ai,AI, via-interface=%TUN%
+#claude
+HOST,cdn.usefathom.com,AI
+HOST-SUFFIX,anthropic.com,AI
+HOST-SUFFIX,claude.ai,AI
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7, modified by hsu
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-HOST,browser-intake-datadoghq.com,AI, via-interface=%TUN%
-HOST,chat.openai.com.cdn.cloudflare.net,AI, via-interface=%TUN%
-HOST,gemini.google.com,AI, via-interface=%TUN%
-HOST,openai-api.arkoselabs.com,AI, via-interface=%TUN%
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI, via-interface=%TUN%
-HOST,openaicomproductionae4b.blob.core.windows.net,AI, via-interface=%TUN%
-HOST,production-openaicom-storage.azureedge.net,AI, via-interface=%TUN%
-HOST,static.cloudflareinsights.com,AI, via-interface=%TUN%
-HOST-SUFFIX,ai.com,AI, via-interface=%TUN%
-HOST-SUFFIX,algolia.net,AI, via-interface=%TUN%
-HOST-SUFFIX,api.statsig.com,AI, via-interface=%TUN%
-HOST-SUFFIX,auth0.com,AI, via-interface=%TUN%
-HOST-SUFFIX,chatgpt.com,AI, via-interface=%TUN%
-HOST-SUFFIX,chatgpt.livekit.cloud,AI, via-interface=%TUN%
-HOST-SUFFIX,client-api.arkoselabs.com,AI, via-interface=%TUN%
-HOST-SUFFIX,events.statsigapi.net,AI, via-interface=%TUN%
-HOST-SUFFIX,featuregates.org,AI, via-interface=%TUN%
-HOST-SUFFIX,host.livekit.cloud,AI, via-interface=%TUN%
-HOST-SUFFIX,identrust.com,AI, via-interface=%TUN%
-HOST-SUFFIX,intercom.io,AI, via-interface=%TUN%
-HOST-SUFFIX,intercomcdn.com,AI, via-interface=%TUN%
-HOST-SUFFIX,launchdarkly.com,AI, via-interface=%TUN%
-HOST-SUFFIX,oaistatic.com,AI, via-interface=%TUN%
-HOST-SUFFIX,oaiusercontent.com,AI, via-interface=%TUN%
-HOST-SUFFIX,observeit.net,AI, via-interface=%TUN%
-HOST-SUFFIX,openai.com,AI, via-interface=%TUN%
-HOST-SUFFIX,openaiapi-site.azureedge.net,AI, via-interface=%TUN%
-HOST-SUFFIX,openaicom.imgix.net,AI, via-interface=%TUN%
-HOST-SUFFIX,segment.io,AI, via-interface=%TUN%
-HOST-SUFFIX,sentry.io,AI, via-interface=%TUN%
-HOST-SUFFIX,stripe.com,AI, via-interface=%TUN%
-HOST-SUFFIX,turn.livekit.cloud,AI, via-interface=%TUN%
-HOST-KEYWORD,openaicom-api,AI, via-interface=%TUN%
-HOST-KEYWORD,openai,AI, via-interface=%TUN%
-IP-CIDR,24.199.123.28/32,AI, via-interface=%TUN%
-IP-CIDR,64.23.132.171/32,AI, via-interface=%TUN%
-IP-ASN,20473,AI, via-interface=%TUN%
+HOST,browser-intake-datadoghq.com,AI
+HOST,chat.openai.com.cdn.cloudflare.net,AI
+HOST,gemini.google.com,AI
+HOST,openai-api.arkoselabs.com,AI
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI
+HOST,openaicomproductionae4b.blob.core.windows.net,AI
+HOST,production-openaicom-storage.azureedge.net,AI
+HOST,static.cloudflareinsights.com,AI
+HOST-SUFFIX,ai.com,AI
+HOST-SUFFIX,algolia.net,AI
+HOST-SUFFIX,api.statsig.com,AI
+HOST-SUFFIX,auth0.com,AI
+HOST-SUFFIX,chatgpt.com,AI
+HOST-SUFFIX,chatgpt.livekit.cloud,AI
+HOST-SUFFIX,client-api.arkoselabs.com,AI
+HOST-SUFFIX,events.statsigapi.net,AI
+HOST-SUFFIX,featuregates.org,AI
+HOST-SUFFIX,host.livekit.cloud,AI
+HOST-SUFFIX,identrust.com,AI
+HOST-SUFFIX,intercom.io,AI
+HOST-SUFFIX,intercomcdn.com,AI
+HOST-SUFFIX,launchdarkly.com,AI
+HOST-SUFFIX,oaistatic.com,AI
+HOST-SUFFIX,oaiusercontent.com,AI
+HOST-SUFFIX,observeit.net,AI
+HOST-SUFFIX,openai.com,AI
+HOST-SUFFIX,openaiapi-site.azureedge.net,AI
+HOST-SUFFIX,openaicom.imgix.net,AI
+HOST-SUFFIX,segment.io,AI
+HOST-SUFFIX,sentry.io,AI
+HOST-SUFFIX,stripe.com,AI
+HOST-SUFFIX,turn.livekit.cloud,AI
+HOST-KEYWORD,openaicom-api,AI
+HOST-KEYWORD,openai,AI
+IP-CIDR,24.199.123.28/32,AI
+IP-CIDR,64.23.132.171/32,AI
+IP-ASN,20473,AI
 
 # Gemini
-HOST,ai.google.dev,AI, via-interface=%TUN%
-HOST,alkalimakersuite-pa.clients6.google.com,AI, via-interface=%TUN%
-HOST,makersuite.google.com,AI, via-interface=%TUN%
-HOST-SUFFIX,bard.google.com,AI, via-interface=%TUN%
-HOST-SUFFIX,deepmind.com,AI, via-interface=%TUN%
-HOST-SUFFIX,deepmind.google,AI, via-interface=%TUN%
-HOST-SUFFIX,gemini.google.com,AI, via-interface=%TUN%
-HOST-SUFFIX,generativeai.google,AI, via-interface=%TUN%
-HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI, via-interface=%TUN%
-HOST-SUFFIX,apis.google.com,AI, via-interface=%TUN%
-HOST-KEYWORD,colab,AI, via-interface=%TUN%
-HOST-KEYWORD,developerprofiles,AI, via-interface=%TUN%
-HOST-KEYWORD,generativelanguage,AI, via-interface=%TUN%
+HOST,ai.google.dev,AI
+HOST,alkalimakersuite-pa.clients6.google.com,AI
+HOST,makersuite.google.com,AI
+HOST-SUFFIX,bard.google.com,AI
+HOST-SUFFIX,deepmind.com,AI
+HOST-SUFFIX,deepmind.google,AI
+HOST-SUFFIX,gemini.google.com,AI
+HOST-SUFFIX,generativeai.google,AI
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
+HOST-SUFFIX,apis.google.com,AI
+HOST-KEYWORD,colab,AI
+HOST-KEYWORD,developerprofiles,AI
+HOST-KEYWORD,generativelanguage,AI
 
-HOST-SUFFIX, ipinfo.io, AI, via-interface=%TUN%
+HOST-SUFFIX, ipinfo.io, AI
