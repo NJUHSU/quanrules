@@ -59,3 +59,5 @@ HOST-SUFFIX,apis.google.com,AI, via-interface=%TUN%
 HOST-KEYWORD,colab,AI, via-interface=%TUN%
 HOST-KEYWORD,developerprofiles,AI, via-interface=%TUN%
 HOST-KEYWORD,generativelanguage,AI, via-interface=%TUN%
+
+HOST-SUFFIX, ipinfo.io, AI, via-interface=%TUN%
