@@ -1,6 +1,7 @@
 # claude
-HOST-SUFFIX,anthropic.com,PROXY
-HOST-SUFFIX,claude.ai,PROXY
+HOST,cdn.usefathom.com,AI
+HOST-SUFFIX,anthropic.com,AI
+HOST-SUFFIX,claude.ai,AI
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7, modified by hsu
@@ -43,3 +44,17 @@ IP-CIDR,24.199.123.28/32,AI
 IP-CIDR,64.23.132.171/32,AI
 IP-ASN,20473,AI
 
+# Gemini
+HOST,ai.google.dev,AI
+HOST,alkalimakersuite-pa.clients6.google.com,AI
+HOST,makersuite.google.com,AI
+HOST-SUFFIX,bard.google.com,AI
+HOST-SUFFIX,deepmind.com,AI
+HOST-SUFFIX,deepmind.google,AI
+HOST-SUFFIX,gemini.google.com,AI
+HOST-SUFFIX,generativeai.google,AI
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,AI
+HOST-SUFFIX,apis.google.com,AI
+HOST-KEYWORD,colab,AI
+HOST-KEYWORD,developerprofiles,AI
+HOST-KEYWORD,generativelanguage,AI

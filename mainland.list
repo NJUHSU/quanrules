@@ -1,0 +1,266 @@
+# DIRECT rules
+HOST-SUFFIX,ultramobile.com,DIRECT
+HOST-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,asuscomm.com,DIRECT
+HOST-SUFFIX,bilivideo.com,DIRECT
+HOST-KEYWORD,infuse,DIRECT
+
+# qnap
+HOST-SUFFIX,qnap.com,DIRECT
+HOST-KEYWORD,qnap,DIRECT
+
+# Alibaba
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+
+# Microsoft Office
+HOST,officecdn-microsoft-com.akamaized.net,DIRECT
+HOST-SUFFIX,azure.com,DIRECT
+
+# Common Chinese services
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,biliapi.com,DIRECT
+HOST-SUFFIX,biliapi.net,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilibili.tv,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,baidu.com,DIRECT
+
+# Common international services
+HOST-SUFFIX,battle.net,DIRECT
+HOST-SUFFIX,blizzard.com,DIRECT
+HOST-SUFFIX,booking.com,DIRECT
+
+# Academic resources
+HOST-SUFFIX,cambridge.org,DIRECT
+
+# Chinese media
+HOST-SUFFIX,cctv.com,DIRECT
+HOST-SUFFIX,cctvpic.com,DIRECT
+
+# Chinese financial services
+HOST-SUFFIX,cmbchina.com,DIRECT
+
+# Chinese travel services
+HOST-SUFFIX,ctrip.com,DIRECT
+
+# Chinese tech companies
+HOST-SUFFIX,didiglobal.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+
+# Chinese social media and entertainment
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,douyu.com,DIRECT
+
+# General Chinese domains
+HOST-SUFFIX,cn,DIRECT
+
+# Chinese financial services
+HOST-SUFFIX,eastmoney.com,DIRECT
+
+# Chinese tech companies
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST-SUFFIX,hdslb.com,DIRECT
+HOST-SUFFIX,huya.com,DIRECT
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,iqiyipic.com,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jd.hk,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+
+# Chinese media and entertainment
+HOST-SUFFIX,ithome.com,DIRECT
+HOST-SUFFIX,maoyan.com,DIRECT
+HOST-SUFFIX,mgtv.com,DIRECT
+
+# Chinese tech giants
+HOST-SUFFIX,meitu.com,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
+
+# International tech companies
+HOST-SUFFIX,microsoft.com,DIRECT
+
+# Chinese cloud services
+HOST-SUFFIX,myqcloud.com,DIRECT
+
+# Major Chinese internet companies
+HOST-SUFFIX,netease.com,DIRECT
+
+# Academic resources
+HOST-SUFFIX,ebscohost.com,DIRECT
+HOST-SUFFIX,ieee.org,DIRECT
+HOST-SUFFIX,jstor.org,DIRECT
+HOST-SUFFIX,nature.com,DIRECT
+
+# International tech companies
+HOST-SUFFIX,nvidia.com,DIRECT
+HOST-SUFFIX,office365.com,DIRECT
+HOST-SUFFIX,outlook.com,DIRECT
+HOST-SUFFIX,paypal.com,DIRECT
+HOST-SUFFIX,paypalobjects.com,DIRECT
+
+# Chinese tech giants
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+
+# Chinese internet services
+HOST-SUFFIX,qidian.com,DIRECT
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,sogou.com,DIRECT
+HOST-SUFFIX,sogoucdn.com,DIRECT
+HOST-SUFFIX,sohu.com,DIRECT
+
+# Academic resources
+HOST-SUFFIX,oup.com,DIRECT
+HOST-SUFFIX,pnas.org,DIRECT
+HOST-SUFFIX,proquest.com,DIRECT
+HOST-SUFFIX,sciencedirect.com,DIRECT
+HOST-SUFFIX,sciencemag.org,DIRECT
+HOST-SUFFIX,springer.com,DIRECT
+HOST-SUFFIX,springerlink.com,DIRECT
+
+# Gaming platforms
+HOST-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
+HOST-SUFFIX,steamcontent.com,DIRECT
+HOST-SUFFIX,steamgames.com,DIRECT
+HOST-SUFFIX,steampowered.com,DIRECT
+HOST-SUFFIX,steamstat.us,DIRECT
+HOST-SUFFIX,steamstatic.com,DIRECT
+HOST-SUFFIX,steamusercontent.com,DIRECT
+
+# Chinese tech giants and services
+HOST-SUFFIX,tencent-cloud.net,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,toutiao.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,xiaohongshu.com,DIRECT
+HOST-SUFFIX,xhscdn.com,DIRECT
+HOST-SUFFIX,ximalaya.com,DIRECT
+HOST-SUFFIX,xinhuanet.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
+
+# International tech companies
+HOST-SUFFIX,teamviewer.com,DIRECT
+HOST-SUFFIX,visualstudio.com,DIRECT
+HOST-SUFFIX,vmware.com,DIRECT
+HOST-SUFFIX,windows.com,DIRECT
+HOST-SUFFIX,windowsupdate.com,DIRECT
+
+# Academic and news resources
+HOST-SUFFIX,tandfonline.com,DIRECT
+HOST-SUFFIX,un.org,DIRECT
+HOST-SUFFIX,webofknowledge.com,DIRECT
+HOST-SUFFIX,westlaw.com,DIRECT
+HOST-SUFFIX,wiley.com,DIRECT
+HOST-SUFFIX,worldbank.org,DIRECT
+HOST-SUFFIX,worldscientific.com,DIRECT
+
+# Apple services (as requested to keep)
+HOST,www-cdn.icloud.com.akadns.net,DIRECT
+HOST-SUFFIX,aaplimg.com,DIRECT
+HOST-SUFFIX,apple-cloudkit.com,DIRECT
+HOST-SUFFIX,apple.co,DIRECT
+HOST-SUFFIX,apple.com,DIRECT
+HOST-SUFFIX,apple.news,DIRECT
+HOST-SUFFIX,apple.com.cn,DIRECT
+HOST-SUFFIX,appstore.com,DIRECT
+HOST-SUFFIX,cdn-apple.com,DIRECT
+HOST-SUFFIX,crashlytics.com,DIRECT
+HOST-SUFFIX,icloud-content.com,DIRECT
+HOST-SUFFIX,icloud.com,DIRECT
+HOST-SUFFIX,icloud.com.cn,DIRECT
+HOST-SUFFIX,me.com,DIRECT
+HOST-SUFFIX,mzstatic.com,DIRECT
+HOST-SUFFIX,safebrowsing.apple,DIRECT
+
+# logi
+HOST-SUFFIX,logi.com,DIRECT
+HOST-SUFFIX,logitech.io,DIRECT
+HOST-SUFFIX,logitech.com,DIRECT
+HOST-SUFFIX,logitechg.com,DIRECT
+
+# workday
+HOST-KEYWORD,myworkday,DIRECT
+
+# IP类工具 直联
+host-suffix,ipip.net,direct
+host-suffix,ip.la,direct
+host-suffix,ip-cdn.com,direct
+host-suffix,test-ipv4.com,direct
+host-suffix,ipv6-test.com,direct
+host-suffix,test-ipv6.com,direct
+host-suffix,whatismyip.com,direct
+
+# 测速类
+//Speed Test
+
+# host-suffix,speedtest.net,direct
+host-suffix,netspeedtestmaster.com,direct
+host,speedtest.macpaw.com,direct
+
+# 京东
+host-suffix,jd.com,direct
+host-suffix,jd.hk,direct
+host-suffix,jdpay.com,direct
+host-suffix,360buyimg.com,direct
+
+# 滴滴
+host-suffix,didialift.com,direct
+host-suffix,didiglobal.com,direct
+host-suffix,udache.com,direct
+
+# 阿里
+user-agent,%E4%BC%98%E9%85%B7*,direct
+host-suffix,alibaba.com,direct
+host-suffix,alicdn.com,direct
+host-suffix,alikunlun.com,direct
+host-suffix,alipay.com,direct
+host-suffix,amap.com,direct
+host-suffix,autonavi.com,direct
+host-suffix,dingtalk.com,direct
+host-suffix,mxhichina.com,direct
+host-suffix,soku.com,direct
+host-suffix,taobao.com,direct
+host-suffix,tmall.com,direct
+host-suffix,tmall.hk,direct
+host-suffix,ykimg.com,direct
+host-suffix,youku.com,direct
+host-suffix,xiami.com,direct
+host-suffix,xiami.net,direct
+
+# 腾讯
+user-agent,MicroMessenger%20Client,direct
+user-agent,WeChat*,direct
+host-suffix,gtimg.com,direct
+host-suffix,idqqimg.com,direct
+host-suffix,igamecj.com,direct
+host-suffix,myapp.com,direct
+host-suffix,myqcloud.com,direct
+host-suffix,qq.com,direct
+host-suffix,tencent.com,direct
+host-suffix,tencent-cloud.net,direct
+
+# 新浪
+host-suffix,sina.com,direct
+host-suffix,weibo.com,direct
+host-suffix,weibocdn.com,direct
+

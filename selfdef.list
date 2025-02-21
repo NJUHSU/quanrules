@@ -2,277 +2,177 @@
 HOST-SUFFIX,ultramobile.com,DIRECT
 HOST-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,asuscomm.com,DIRECT
-HOST-SUFFIX,bilivideo.com,DIRECT
 HOST-KEYWORD,infuse,DIRECT
-# qnap
-HOST-SUFFIX,qnap.com,DIRECT
-HOST-KEYWORD,qnap,DIRECT
-# claude
-HOST-SUFFIX,anthropic.com,PROXY
-HOST-SUFFIX,claude.ai,PROXY
 # eBay
-HOST-SUFFIX,ebay.com,PROXY
-HOST-SUFFIX,ebaystatic.com,PROXY
-# TikTok
-HOST-SUFFIX,tiktok.com,PROXY
-HOST-SUFFIX,tiktokv.com,PROXY
-HOST-SUFFIX,tiktokcdn.com,PROXY
-HOST-KEYWORD,tiktokv,PROXY
-# Alibaba
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,ebay.com,pp
+HOST-SUFFIX,ebaystatic.com,pp
 # Accelerate most visited sites
-# Microsoft Office
-HOST,officecdn-microsoft-com.akamaized.net,DIRECT
-HOST-SUFFIX,azure.com,DIRECT
-# Common Chinese services
-HOST-SUFFIX,126.net,DIRECT
-HOST-SUFFIX,163.com,DIRECT
-HOST-SUFFIX,alibaba.com,DIRECT
-HOST-SUFFIX,alipay.com,DIRECT
-HOST-SUFFIX,amap.com,DIRECT
-HOST-SUFFIX,biliapi.com,DIRECT
-HOST-SUFFIX,biliapi.net,DIRECT
-HOST-SUFFIX,bilibili.com,DIRECT
-HOST-SUFFIX,bilibili.tv,DIRECT
-HOST-SUFFIX,jd.com,DIRECT
-HOST-SUFFIX,taobao.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,weibo.com,DIRECT
-HOST-SUFFIX,zhihu.com,DIRECT
-HOST-SUFFIX,baidu.com,DIRECT
-# Common international services
-HOST-SUFFIX,battle.net,DIRECT
-HOST-SUFFIX,blizzard.com,DIRECT
-HOST-SUFFIX,booking.com,DIRECT
-# Academic resources
-HOST-SUFFIX,cambridge.org,DIRECT
-# Chinese media
-HOST-SUFFIX,cctv.com,DIRECT
-HOST-SUFFIX,cctvpic.com,DIRECT
-# Chinese financial services
-HOST-SUFFIX,cmbchina.com,DIRECT
-# Chinese travel services
-HOST-SUFFIX,ctrip.com,DIRECT
-# Chinese tech companies
-HOST-SUFFIX,didiglobal.com,DIRECT
-HOST-SUFFIX,dingtalk.com,DIRECT
-# Chinese social media and entertainment
-HOST-SUFFIX,douban.com,DIRECT
-HOST-SUFFIX,douyu.com,DIRECT
-# General Chinese domains
-HOST-SUFFIX,cn,DIRECT
-# Chinese financial services
-HOST-SUFFIX,eastmoney.com,DIRECT
-# Chinese tech companies
-HOST-SUFFIX,gtimg.com,DIRECT
-HOST-SUFFIX,hdslb.com,DIRECT
-HOST-SUFFIX,huya.com,DIRECT
-HOST-SUFFIX,iqiyi.com,DIRECT
-HOST-SUFFIX,iqiyipic.com,DIRECT
-HOST-SUFFIX,jd.com,DIRECT
-HOST-SUFFIX,jd.hk,DIRECT
-HOST-SUFFIX,jdpay.com,DIRECT
-# Chinese media and entertainment
-HOST-SUFFIX,ithome.com,DIRECT
-HOST-SUFFIX,maoyan.com,DIRECT
-HOST-SUFFIX,mgtv.com,DIRECT
-# Chinese tech giants
-HOST-SUFFIX,meitu.com,DIRECT
-HOST-SUFFIX,meituan.com,DIRECT
-HOST-SUFFIX,meituan.net,DIRECT
-HOST-SUFFIX,miui.com,DIRECT
-HOST-SUFFIX,miwifi.com,DIRECT
-# International tech companies
-HOST-SUFFIX,microsoft.com,DIRECT
-# Chinese cloud services
-HOST-SUFFIX,myqcloud.com,DIRECT
-# Major Chinese internet companies
-HOST-SUFFIX,netease.com,DIRECT
-# Academic resources
-HOST-SUFFIX,ebscohost.com,DIRECT
-HOST-SUFFIX,ieee.org,DIRECT
-HOST-SUFFIX,jstor.org,DIRECT
-HOST-SUFFIX,nature.com,DIRECT
-# International tech companies
-HOST-SUFFIX,nvidia.com,DIRECT
-HOST-SUFFIX,office365.com,DIRECT
-HOST-SUFFIX,outlook.com,DIRECT
-HOST-SUFFIX,paypal.com,DIRECT
-HOST-SUFFIX,paypalobjects.com,DIRECT
-# Chinese tech giants
-HOST-SUFFIX,qq.com,DIRECT
-HOST-SUFFIX,wechat.com,DIRECT
-# Chinese internet services
-HOST-SUFFIX,qidian.com,DIRECT
-HOST-SUFFIX,sina.com,DIRECT
-HOST-SUFFIX,sogou.com,DIRECT
-HOST-SUFFIX,sogoucdn.com,DIRECT
-HOST-SUFFIX,sohu.com,DIRECT
-# Academic resources
-HOST-SUFFIX,oup.com,DIRECT
-HOST-SUFFIX,pnas.org,DIRECT
-HOST-SUFFIX,proquest.com,DIRECT
-HOST-SUFFIX,sciencedirect.com,DIRECT
-HOST-SUFFIX,sciencemag.org,DIRECT
-HOST-SUFFIX,springer.com,DIRECT
-HOST-SUFFIX,springerlink.com,DIRECT
-# Gaming platforms
-HOST-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
-HOST-SUFFIX,steamcontent.com,DIRECT
-HOST-SUFFIX,steamgames.com,DIRECT
-HOST-SUFFIX,steampowered.com,DIRECT
-HOST-SUFFIX,steamstat.us,DIRECT
-HOST-SUFFIX,steamstatic.com,DIRECT
-HOST-SUFFIX,steamusercontent.com,DIRECT
-# Chinese tech giants and services
-HOST-SUFFIX,tencent-cloud.net,DIRECT
-HOST-SUFFIX,tencent.com,DIRECT
-HOST-SUFFIX,tenpay.com,DIRECT
-HOST-SUFFIX,tmall.com,DIRECT
-HOST-SUFFIX,tmall.hk,DIRECT
-HOST-SUFFIX,toutiao.com,DIRECT
-HOST-SUFFIX,weibo.com,DIRECT
-HOST-SUFFIX,weibocdn.com,DIRECT
-HOST-SUFFIX,xiaomi.com,DIRECT
-HOST-SUFFIX,xiaohongshu.com,DIRECT
-HOST-SUFFIX,xhscdn.com,DIRECT
-HOST-SUFFIX,ximalaya.com,DIRECT
-HOST-SUFFIX,xinhuanet.com,DIRECT
-HOST-SUFFIX,youku.com,DIRECT
-HOST-SUFFIX,zhihu.com,DIRECT
-HOST-SUFFIX,zhimg.com,DIRECT
-# International tech companies
-HOST-SUFFIX,teamviewer.com,DIRECT
-HOST-SUFFIX,visualstudio.com,DIRECT
-HOST-SUFFIX,vmware.com,DIRECT
-HOST-SUFFIX,windows.com,DIRECT
-HOST-SUFFIX,windowsupdate.com,DIRECT
-# Academic and news resources
-HOST-SUFFIX,tandfonline.com,DIRECT
-HOST-SUFFIX,un.org,DIRECT
-HOST-SUFFIX,webofknowledge.com,DIRECT
-HOST-SUFFIX,westlaw.com,DIRECT
-HOST-SUFFIX,wiley.com,DIRECT
-HOST-SUFFIX,worldbank.org,DIRECT
-HOST-SUFFIX,worldscientific.com,DIRECT
-# Apple services (as requested to keep)
-HOST,www-cdn.icloud.com.akadns.net,DIRECT
-HOST-SUFFIX,aaplimg.com,DIRECT
-HOST-SUFFIX,apple-cloudkit.com,DIRECT
-HOST-SUFFIX,apple.co,DIRECT
-HOST-SUFFIX,apple.com,DIRECT
-HOST-SUFFIX,apple.news,DIRECT
-HOST-SUFFIX,apple.com.cn,DIRECT
-HOST-SUFFIX,appstore.com,DIRECT
-HOST-SUFFIX,cdn-apple.com,DIRECT
-HOST-SUFFIX,crashlytics.com,DIRECT
-HOST-SUFFIX,icloud-content.com,DIRECT
-HOST-SUFFIX,icloud.com,DIRECT
-HOST-SUFFIX,icloud.com.cn,DIRECT
-HOST-SUFFIX,me.com,DIRECT
-HOST-SUFFIX,mzstatic.com,DIRECT
-HOST-SUFFIX,safebrowsing.apple,DIRECT
 # LINE
-HOST-SUFFIX,scdn.co,PROXY
-HOST-SUFFIX,line.naver.jp,PROXY
-HOST-SUFFIX,line.me,PROXY
-HOST-SUFFIX,line-apps.com,PROXY
-HOST-SUFFIX,line-cdn.net,PROXY
-HOST-SUFFIX,line-scdn.net,PROXY
-USER-AGENT,Line*,PROXY
+HOST-SUFFIX,scdn.co,pp
+HOST-SUFFIX,line.naver.jp,pp
+HOST-SUFFIX,line.me,pp
+HOST-SUFFIX,line-apps.com,pp
+HOST-SUFFIX,line-cdn.net,pp
+HOST-SUFFIX,line-scdn.net,pp
+USER-AGENT,Line*,pp
 # Google
-HOST-KEYWORD,google,PROXY
-HOST-SUFFIX,android.com,PROXY
-HOST-SUFFIX,appspot.com,PROXY
-HOST-SUFFIX,blogger.com,PROXY
-HOST-SUFFIX,chrome.com,PROXY
-HOST-SUFFIX,chromium.org,PROXY
-HOST-SUFFIX,gmail.com,PROXY
-HOST-SUFFIX,gstatic.com,PROXY
-HOST-SUFFIX,recaptcha.net,PROXY
-HOST-SUFFIX,youtu.be,PROXY
-HOST-SUFFIX,youtube.com,PROXY
-HOST-SUFFIX,ytimg.com,PROXY
+HOST-KEYWORD,google,pp
+HOST-SUFFIX,android.com,pp
+HOST-SUFFIX,appspot.com,pp
+HOST-SUFFIX,blogger.com,pp
+HOST-SUFFIX,chrome.com,pp
+HOST-SUFFIX,chromium.org,pp
+HOST-SUFFIX,gmail.com,pp
+HOST-SUFFIX,gstatic.com,pp
+HOST-SUFFIX,recaptcha.net,pp
 # Clubhouse
-HOST-SUFFIX,clubhouseapi.com,PROXY
-HOST-SUFFIX,clubhouse.pubnub.com,PROXY
-HOST-SUFFIX,joinclubhouse.com,PROXY
-HOST-SUFFIX,ap3.agora.io,PROXY
+HOST-SUFFIX,clubhouseapi.com,pp
+HOST-SUFFIX,clubhouse.pubnub.com,pp
+HOST-SUFFIX,joinclubhouse.com,pp
+HOST-SUFFIX,ap3.agora.io,pp
 # Social Media and Communication
-HOST-KEYWORD,facebook,PROXY
-HOST-KEYWORD,instagram,PROXY
-HOST-KEYWORD,twitter,PROXY
-HOST-SUFFIX,twimg.com,PROXY
-HOST-SUFFIX,t.co,PROXY
-HOST-SUFFIX,whatsapp.net,PROXY
-HOST-SUFFIX,whatsapp.com,PROXY
-HOST-SUFFIX,snapchat.com,PROXY
-HOST-SUFFIX,linkedin.com,PROXY
-HOST-SUFFIX,licdn.com,PROXY
+HOST-KEYWORD,facebook,pp
+HOST-KEYWORD,instagram,pp
+HOST-KEYWORD,twitter,pp
+HOST-SUFFIX,twimg.com,pp
+HOST-SUFFIX,t.co,pp
+HOST-SUFFIX,whatsapp.net,pp
+HOST-SUFFIX,whatsapp.com,pp
+HOST-SUFFIX,snapchat.com,pp
+HOST-SUFFIX,linkedin.com,pp
+HOST-SUFFIX,licdn.com,pp
 # Cloud Services
-HOST-SUFFIX,amazonaws.com,PROXY
-HOST-SUFFIX,cloudfront.net,PROXY
-HOST-SUFFIX,cloudflare.com,PROXY
-HOST-SUFFIX,dropbox.com,PROXY
-HOST-SUFFIX,github.com,PROXY
-HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,amazonaws.com,pp
+HOST-SUFFIX,cloudfront.net,pp
+HOST-SUFFIX,cloudflare.com,pp
+HOST-SUFFIX,dropbox.com,pp
+HOST-SUFFIX,github.com,pp
+HOST-SUFFIX,githubusercontent.com,pp
 # News and Information
-HOST-SUFFIX,nytimes.com,PROXY
-HOST-SUFFIX,wsj.com,PROXY
-HOST-SUFFIX,wikipedia.org,PROXY
-HOST-SUFFIX,wikimedia.org,PROXY
-HOST-SUFFIX,medium.com,PROXY
-# Video Streaming
-HOST-SUFFIX,twitch.tv,PROXY
-HOST-SUFFIX,vimeo.com,PROXY
-HOST-SUFFIX,nflxvideo.net,PROXY
+HOST-SUFFIX,nytimes.com,pp
+HOST-SUFFIX,wsj.com,pp
+HOST-SUFFIX,wikipedia.org,pp
+HOST-SUFFIX,wikimedia.org,pp
+HOST-SUFFIX,medium.com,pp
 # Developer Tools and Services
-HOST-SUFFIX,bitbucket.org,PROXY
-HOST-SUFFIX,stackoverflow.com,PROXY
+HOST-SUFFIX,bitbucket.org,pp
+HOST-SUFFIX,stackoverflow.com,pp
 # Other Important Services
-HOST-SUFFIX,akamai.net,PROXY
-HOST-SUFFIX,amazon.com,PROXY
-HOST-SUFFIX,bing.com,PROXY
-HOST-SUFFIX,wordpress.com,PROXY
-HOST-SUFFIX,gravatar.com,PROXY
-HOST-SUFFIX,imgur.com,PROXY
-HOST-SUFFIX,fastly.net,PROXY
+HOST-SUFFIX,akamai.net,pp
+HOST-SUFFIX,amazon.com,pp
+HOST-SUFFIX,bing.com,pp
+HOST-SUFFIX,wordpress.com,pp
+HOST-SUFFIX,gravatar.com,pp
+HOST-SUFFIX,imgur.com,pp
+HOST-SUFFIX,fastly.net,pp
 # URL Shorteners
-HOST-SUFFIX,bit.ly,PROXY
-HOST-SUFFIX,goo.gl,PROXY
-HOST-SUFFIX,ift.tt,PROXY
-HOST-SUFFIX,j.mp,PROXY
-HOST-SUFFIX,ow.ly,PROXY
+HOST-SUFFIX,bit.ly,pp
+HOST-SUFFIX,goo.gl,pp
+HOST-SUFFIX,ift.tt,pp
+HOST-SUFFIX,j.mp,pp
+HOST-SUFFIX,ow.ly,pp
 # Speed Test
-HOST-SUFFIX,fast.com,PROXY
-# ChatGPT
-HOST,chat.openai.com.cdn.cloudflare.net,PROXY
-HOST,openai-api.arkoselabs.com,PROXY
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
-HOST,openaicomproductionae4b.blob.core.windows.net,PROXY
-HOST,production-openaicom-storage.azureedge.net,PROXY
-HOST-KEYWORD,openaicom-api,PROXY
-HOST-SUFFIX,auth0.com,PROXY
-HOST-SUFFIX,cdn.cloudflare.net,PROXY
-HOST-SUFFIX,challenges.cloudflare.com,PROXY
-HOST-SUFFIX,chatgpt.livekit.cloud,PROXY
-HOST-SUFFIX,client-api.arkoselabs.com,PROXY
-HOST-SUFFIX,oaistatic.com,PROXY
-HOST-SUFFIX,oaiusercontent.com,PROXY
-HOST-SUFFIX,openai.com,PROXY
-HOST-SUFFIX,openaiapi-site.azureedge.net,PROXY
-HOST-SUFFIX,openaicom.imgix.net,PROXY
-HOST-SUFFIX,stripe.com,PROXY
+HOST-SUFFIX,fast.com,pp
 # added jable
-HOST-SUFFIX,jable.tv,PROXY
-# logi
-HOST-SUFFIX,logi.com,DIRECT
-HOST-SUFFIX,logitech.io,DIRECT
-HOST-SUFFIX,logitech.com,DIRECT
-HOST-SUFFIX,logitechg.com,DIRECT
-# workday
-HOST-KEYWORD,myworkday,DIRECT
+HOST-SUFFIX,jable.tv,pp
 # fc2
-HOST-SUFFIX,fc2ppvdb.com,PROXY
+HOST-SUFFIX,fc2ppvdb.com,pp
+
+# BBC
+user-agent,BBCiPlayer*,pp
+host-suffix,bbc,pp
+host-suffix,bbc.co,pp
+host-suffix,bbc.co.uk,pp
+host-suffix,bbc.com,pp
+host-suffix,bbc.in,pp
+host-suffix,bbc.net.uk,pp
+host-suffix,bbcchinese.com,pp
+host-suffix,bbcfmt.hs.llnwd.net,pp
+host-suffix,bbcfmt.s.llnwi.net,pp
+host-suffix,bbci.co,pp
+host-suffix,bbci.co.uk,pp
+host-suffix,bbcmedia.co.uk,pp
+host-suffix,bbcpersian.com,pp
+host-suffix,bbcverticals.com,pp
+host-suffix,bidi.net.uk,pp
+host,aod-dash-uk-live.akamaized.net,pp
+host,aod-hls-uk-live.akamaized.net,pp
+host,as-dash-uk-live.akamaized.net,pp
+host,as-hls-uk-live.akamaized.net,pp
+host,vod-dash-uk-live.akamaized.net,pp
+host,vod-dash-uk-live.bbcfmt.hs.llnwd.net,pp
+host,vod-dash-ww-live.akamaized.net,pp
+host,vod-dash-ww-live.bbcfmt.s.llnwi.net,pp
+host,vod-hls-uk-live.akamaized.net,pp
+host,vod-sub-uk-live.akamaized.net,pp
+host,vod-thumb-uk-live.akamaized.net,pp
+host,vod-thumb-uk-live.bbcfmt.hs.llnwd.net,pp
+host,vod-thumb-ww-live.akamaized.net,pp
+host,vod-thumb-ww-live.bbcfmt.s.llnwi.net,pp
+host,vs-cmaf-push-uk-live.akamaized.net,pp
+host-keyword,bbcfmt,pp
+host-keyword,uk-live,pp
+
+# NYPost
+host-suffix,nypost.com,pp
+host-suffix,nypost.help,pp
+host-suffix,nypostreprints.com,pp
+
+# NY Times
+host-suffix,d1f1eryiqyjs0r.cloudfront.net,pp
+host-suffix,d3lar09xbwlsge.cloudfront.net,pp
+host-suffix,d3q1qj9jzsu8nw.cloudfront.net,pp
+host-suffix,dc8xl0ndzn2cb.cloudfront.net,pp
+host-suffix,nyt.com,pp
+host-suffix,nyt.net,pp
+host-suffix,nytchina.com,pp
+host-suffix,nytcn.me,pp
+host-suffix,nytco.com,pp
+host-suffix,nyti.ms,pp
+host-suffix,nytimes.com,pp
+host-suffix,nytimg.com,pp
+host-suffix,nytlog.com,pp
+host-suffix,nytstyle.com,pp
+host-suffix,timestalks.com,pp
+host-suffix,tynt.com,pp
+
+# Nationalgeographic
+host-suffix,natgeomaps.com,pp
+host-suffix,nationalgeographic.com,pp
+host-suffix,nationalgeographicpartners.com,pp
+host-suffix,ngeo.com,pp
+
+# Pornhub
+host-suffix,phncdn.com,pp
+host-suffix,pornhub.com,pp
+host-suffix,pornhubpremium.com,pp
+host-suffix,pronstore.com,pp
+host-suffix,phprcdn.com,pp
+
+# Spotify
+user-agent,Spotify*,pp
+host-suffix,audio-ak-spotify-com.akamaized.net,pp
+host-suffix,byspotify.com,pp
+host-suffix,heads4-ak-spotify-com.akamaized.net,pp
+host-suffix,pscdn.co,pp
+host-suffix,scdn.co,pp
+host-suffix,spoti.fi,pp
+host-suffix,spotify-com.akamaized.net,pp
+host-suffix,spotify-everywhere.com,pp
+host-suffix,spotify.com,pp
+host-suffix,spotify.design,pp
+host-suffix,spotifycdn.com,pp
+host-suffix,spotifycdn.net,pp
+host-suffix,spotifycharts.com,pp
+host-suffix,spotifycodes.com,pp
+host-suffix,spotifyforbrands.com,pp
+host-suffix,spotifyjobs.com,pp
+host-keyword,-spotify-com,pp
+
+# TIDAL
+user-agent,TIDAL*dia,pp
+host-suffix,tidal-cms.s3.amazonaws.com,pp
+host-suffix,tidal.com,pp
+host-suffix,tidalhifi.com,pp
+host-suffix,wimpmusic.com,pp
+
