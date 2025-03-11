@@ -1,9 +1,14 @@
 # DIRECT rules
+
 HOST-SUFFIX,ultramobile.com,DIRECT
 HOST-SUFFIX,apple.com,DIRECT
 HOST-SUFFIX,asuscomm.com,DIRECT
 HOST-SUFFIX,bilivideo.com,DIRECT
 HOST-KEYWORD,infuse,DIRECT
+
+#TJUPT
+HOST-SUFFIX,tjupt.org,DIRECT
+HOST-SUFFIX,tju.pt,DIRECT
 
 # qnap
 HOST-SUFFIX,qnap.com,DIRECT
